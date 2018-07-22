@@ -11,7 +11,7 @@ training_set = train_datagen.flow_from_directory('train',
                                                  color_mode= 'rgb',
                                                  batch_size = 16)  
 
-#training_set.class_indices
+#print(training_set.class_indices)
 
 #Importing the Keras libraries and packages
 from keras.models import Sequential
